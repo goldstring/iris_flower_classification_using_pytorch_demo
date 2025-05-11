@@ -1,3 +1,4 @@
+
 <h1>Iris Flower Classification using PyTorch</h1>
     <p>This repository contains a simple implementation of a classification model using Artificial Neural Networks (ANN) to classify the Iris flower dataset. The dataset is used for a multi-class classification problem to predict the species of Iris flowers (Setosa, Versicolor, Virginica).</p>
     <h2>Dataset</h2>
@@ -64,15 +65,8 @@ numpy==1.21.0</code></pre>
     <h3>Training Accuracy: 0.9750</h3>
     <h3>Test Accuracy: 1.0000</h3>
     <h3>Classification Report:</h3>
-    <pre><code>
-               precision    recall  f1-score   support
-      setosa       1.00      1.00      1.00        10
-  versicolor       1.00      1.00      1.00         9
-   virginica       1.00      1.00      1.00        11
-    accuracy                           1.00        30
-   macro avg       1.00      1.00      1.00        30
-weighted avg       1.00      1.00      1.00        30
-    </code></pre>
+    <img src="https://github.com/goldstring/iris_flower_classification_using_pytorch_demo/blob/main/loss_vs_epoch.png?raw=true"/>
+    <img src="https://github.com/goldstring/iris_flower_classification_using_pytorch_demo/blob/main/confusion_matrix.png?raw=true"/>
     <h3>Test Loss: 0.0569</h3>
     <h2>Model Code Overview</h2>
     <h3><strong>train_model.py</strong></h3>
